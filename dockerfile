@@ -9,4 +9,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 4000
-CMD [ "node-app", "index.js" ]
+CMD [ "dockerhub_id", "index.js" ]
